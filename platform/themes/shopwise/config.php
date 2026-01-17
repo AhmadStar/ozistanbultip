@@ -38,7 +38,7 @@ return [
         'beforeRenderTheme' => function (Theme $theme)
         {
 
-            $version = '1.19.0';
+            $version = '1.20.0';
 
             // <!-- Vendors -->
             $theme->asset()->container('footer')->usePath()->add('jquery', '/dental/vendor/jquery/jquery-3.2.1.min.js');
@@ -59,7 +59,8 @@ return [
                 $theme->asset()->usePath()->add('ar-style', '/dental/css/ar-style.css', [], [], $version);
             }
 
-            $theme->asset()->container('footer')->usePath()->add('vue-js', '/vue/vue.js', ['jquery'], [], $version);
+            // $theme->asset()->container('footer')->usePath()->add('vue-js', '/vue/vue.js', ['jquery'], [], $version);
+            $theme->asset()->container('footer')->usePath()->add('vue-jsnew', '/vue/vue-new.js', ['jquery'], [], $version);
             $theme->asset()->container('footer')->usePath()->add('axios', '/vue/axios.min.js');
 
             if (function_exists('shortcode')) {

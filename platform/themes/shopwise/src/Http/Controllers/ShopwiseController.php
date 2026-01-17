@@ -135,7 +135,7 @@ class ShopwiseController extends PublicController
             return $response->setNextUrl(route('public.index'));
         }
 
-        $clinics = get_clinic_list();
+        $clinics = get_clinic_list($request->query('lang'));
 
         return $response->setData(ClinicResource::collection($clinics));
     }
@@ -151,7 +151,7 @@ class ShopwiseController extends PublicController
             return $response->setNextUrl(route('public.index'));
         }
 
-        $clinics = get_clinic_doctor_list($request->query('id'));
+        $clinics = get_clinic_doctor_list($request->query('id'), $request->query('lang'));
 
         return $response->setData(DoctorResource::collection($clinics));
     }
@@ -167,7 +167,7 @@ class ShopwiseController extends PublicController
             return $response->setNextUrl(route('public.index'));
         }
 
-        $services = get_clinic_service_list($request->query('id'));
+        $services = get_clinic_service_list($request->query('id'), $request->query('lang'));
 
         return $response->setData(ServiceResource::collection($services));
     }
@@ -200,8 +200,8 @@ class ShopwiseController extends PublicController
             return $response->setNextUrl(route('public.index'));
         }
 
-        $apoointment_list['data'] = get_doctor_appointment_list($request->query('id'));
-        $apoointment_list['dont_available_message'] = get_doctor_data($request->query('id'));
+        $apoointment_list['data'] = get_doctor_appointment_list($request->query('id'),$request->query('lang'));
+        $apoointment_list['dont_available_message'] = get_doctor_data($request->query('id'), $request->query('lang'));
 
         return $response->setData($apoointment_list);
     }
