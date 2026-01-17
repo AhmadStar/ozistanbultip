@@ -1,0 +1,9 @@
+{
+    "name": "Clinic",
+    "namespace": "Botble\\Clinic\\",
+    "provider": "Botble\\Clinic\\Providers\\ClinicServiceProvider",
+    "author": "N/A",
+    "url": "N/A",
+    "version": "1.0",
+    "description": "The description for module clinic"
+}

@@ -1,0 +1,235 @@
+@font-face {
+    font-family: "yaqut";
+    src: url(../icons/fonts/yaqut.woff2) format("woff2"), url(../icons/fonts/yaqut.woff) format("woff"), url(../icons/fonts/yaqut.ttf) format("truetype");
+}
+
+.footer ul.icn-list li > [class*='icon'] {
+    right: 0;
+    left: unset;
+}
+
+.footer ul.icn-list li {
+    padding-right: 31px;
+    padding-left: unset;
+}
+
+.input-group .form-control:first-child {
+    padding-right: 10px !important;
+}
+
+.ml-auto, .mx-auto {
+    margin-right: auto !important;
+    margin-left: unset !important;
+}
+
+.header-info + *, .header-phone + * {
+    position: relative;
+    margin-right: 29px;
+    padding-right: 30px;
+    margin-left: unset;
+    padding-left: unset;
+}
+
+.header-info + *:before, .header-phone + *:before {
+    right: 0;
+    left: unset;
+}
+
+.header-social a:last-child:after {
+    left: 0;
+    right: auto;
+}
+
+.header-social a:before {
+    right: 0;
+    left: unset;
+}
+
+.btn-link [class*='icon'] {
+    padding-right: 10px;
+    padding-left: unset;
+}
+
+.faq-wrap .nav-pills .nav-link {
+    margin: 0 0 0 20px;
+    padding: 0 0 0 20px;
+}
+
+.faq-wrap .nav-pills .nav-link:after {
+    left: 0;
+    right: unset;
+}
+.faq-item [data-toggle='collapse']:after {
+    right: unset;
+    left: 28px;
+}
+
+.banner-call .d-flex {
+    padding-right: 60px;
+    padding-left: unset;
+}
+[dir=rtl] .slick-prev {
+    left: -50px;
+    right: auto;
+    border-radius: 5px 0 0 5px;
+}
+ [dir=rtl] .slick-next {
+    left: auto !important;
+    right: -50px;
+    border-radius: 0 5px 5px 0;
+}
+
+/* search */
+.header-search input[type='text'], .header-search input[type='search'] {
+    left: 0px;
+    right: unset;
+    width: 35px;
+}
+
+.header-search:hover input[type='text'], .header-search:hover input[type='search'], .header-search input[type='text']:focus, .header-search input[type='search']:focus {
+    padding: 0 10px 0 45px;
+}
+
+ul.icn-list-lg li > [class*='icon'] {
+    right: 0;
+    left: unset;
+}
+
+ul.icn-list-lg li {
+    padding-right: 35px;
+    padding-left: 0px;
+}
+
+.navbar-toggler {
+    left: 10px;
+    right: unset;
+}
+
+@media (max-width: 1023px){
+    .header-lang {
+        left: 67px;
+        right: unset;
+    }
+}
+
+@media (max-width: 1023px){
+    .has-lang .header-search {
+        left: 158px;
+        right: unset;
+    }
+}
+
+
+body:not(.touch) .btn:not(.btn-noanimate):hover [class*='icon']:first-child {
+    padding-left: 10px;
+    padding-right: 0px;
+}
+
+
+.header-lang-dropdown ul li > a span.header-lang-flag {
+    padding-left: 9px;
+    padding-right: 0px;
+}
+
+.quickLinks .link-drop-title {
+    text-align: right;
+}
+
+.quickLinks .link-drop-title > [class*='icon-'] {
+    padding-left: 10px;
+    padding-right: 0px;
+}
+
+.quickLinks .link-drop .row-table td {
+    text-align: right;
+}
+
+
+html {
+    font-family: 'yaqut' !important;
+}
+
+.header-nav .nav-item > .nav-link {
+    font-family: 'yaqut' !important;
+}
+
+
+
+html {
+    font-family: 'yaqut' !important;
+}
+
+:root {
+    --font-family-sans-serif: 'yaqut' !important;
+    --font-family-monospace: 'yaqut' !important;
+}
+
+body {
+    font-family: 'yaqut' !important;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6  {
+    font-family: 'yaqut' !important;
+}
+
+.quickLinks .col > .link{
+    font-family: 'yaqut' !important;
+}
+
+.btn, body:not(.touch) .btn:focus{
+    font-family: 'yaqut' !important;
+}
+
+.h-sub {
+    font-family: 'yaqut' !important;
+}
+
+.counter-box-text {
+    font-family: 'yaqut' !important;
+}
+
+div{
+    font-family: 'yaqut' !important;
+}
+
+span{
+    font-family: 'yaqut' !important;
+}
+
+a {
+    font-family: 'yaqut' !important;
+}
+
+.faq-item-content p{
+    text-align: justify;
+}
+
+.link-drop p{
+    text-align: justify;
+}
+
+.tabStatus{
+    margin-right: 0rem !important;
+    margin-left: 0.5rem !important;
+}
+
+.form-check-label {
+    padding-left: 0rem !important;
+    padding-right: 1.25rem !important;
+}
+
+.step-pills .step-item {
+    padding: 0.5rem 0.5rem !important;
+}
+
+.link-drop-title > [class*='icon-'] {
+    padding-right: 0px !important;
+    padding-left: 10px !important;
+}
+
+
+@media (max-width: 767px){
+    .navbar-collapse .navbar-nav {
+        padding-right: 0px ;
+    }
+}

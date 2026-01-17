@@ -1,0 +1,9 @@
+{
+    "name": "Service",
+    "namespace": "Botble\\Service\\",
+    "provider": "Botble\\Service\\Providers\\ServiceServiceProvider",
+    "author": "Ahmad Alnajm",
+    "url": "N/A",
+    "version": "1.0",
+    "description": "The description for module service"
+}
